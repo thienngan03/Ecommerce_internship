@@ -1,0 +1,340 @@
+.account {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: auto;
+}
+
+.account .div {
+  background-color: var(--bg);
+  height: 1177px;
+  position: relative;
+  width: 1440px;
+}
+.account .div-2 {
+  background-color: var(--bg);
+  height: 1177px;
+  width: 1440px;
+
+}
+
+.account .frame {
+  height: 300px;
+  left: 135px;
+  position: relative;
+  top: 100px;
+  width: 181px;
+}
+
+.account .text-wrapper {
+  color: var(--text-2);
+  font-family: var(--title-16px-medium-font-family);
+  font-size: var(--title-16px-medium-font-size);
+  font-style: var(--title-16px-medium-font-style);
+  font-weight: var(--title-16px-medium-font-weight);
+  left: 0;
+  letter-spacing: var(--title-16px-medium-letter-spacing);
+  line-height: var(--title-16px-medium-line-height);
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+}
+
+.account .text-wrapper-2 {
+  color: var(--text-2);
+  font-family: var(--title-16px-medium-font-family);
+  font-size: var(--title-16px-medium-font-size);
+  font-style: var(--title-16px-medium-font-style);
+  font-weight: var(--title-16px-medium-font-weight);
+  left: 0;
+  letter-spacing: var(--title-16px-medium-letter-spacing);
+  line-height: var(--title-16px-medium-line-height);
+  position: absolute;
+  top: 176px;
+  white-space: nowrap;
+}
+
+.account .frame-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  left: 18px;
+  position: absolute;
+  top: 37px;
+  width: 119px;
+}
+
+.account .text-wrapper-3 {
+  color: var(--secondary);
+  font-family: var(--title-16px-regular-font-family);
+  font-size: var(--title-16px-regular-font-size);
+  font-style: var(--title-16px-regular-font-style);
+  font-weight: var(--title-16px-regular-font-weight);
+  letter-spacing: var(--title-16px-regular-letter-spacing);
+  line-height: var(--title-16px-regular-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.account .text-wrapper-4 {
+  align-self: stretch;
+  color: var(--ch-gray);
+  font-family: var(--title-16px-regular-font-family);
+  font-size: var(--title-16px-regular-font-size);
+  font-style: var(--title-16px-regular-font-style);
+  font-weight: var(--title-16px-regular-font-weight);
+  letter-spacing: var(--title-16px-regular-letter-spacing);
+  line-height: var(--title-16px-regular-line-height);
+  position: relative;
+}
+
+.account .text-wrapper-5 {
+  color: rgb(235, 235, 143);
+  font-family: var(--title-16px-regular-font-family);
+  font-size: var(--title-16px-regular-font-size);
+  font-style: var(--title-16px-regular-font-style);
+  font-weight: var(--title-16px-regular-font-weight);
+  letter-spacing: var(--title-16px-regular-letter-spacing);
+  line-height: var(--title-16px-regular-line-height);
+  margin-right: -29.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.account .frame-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+  left: 18px;
+  position: absolute;
+  top: 220px;
+}
+
+.account .text-wrapper-6 {
+  color: var(--ch-gray);
+  font-family: var(--title-16px-regular-font-family);
+  font-size: var(--title-16px-regular-font-size);
+  font-style: var(--title-16px-regular-font-style);
+  font-weight: var(--title-16px-regular-font-weight);
+  letter-spacing: var(--title-16px-regular-letter-spacing);
+  line-height: var(--title-16px-regular-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.account .text-wrapper-7 {
+  color: var(--ch-gray);
+  font-family: var(--title-16px-regular-font-family);
+  font-size: var(--title-16px-regular-font-size);
+  font-style: var(--title-16px-regular-font-style);
+  font-weight: var(--title-16px-regular-font-weight);
+  letter-spacing: var(--title-16px-regular-letter-spacing);
+  line-height: var(--title-16px-regular-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.account .text-wrapper-8 {
+  color: rgb(178, 151, 101);
+  font-family: var(--title-20px-medium-font-family);
+  font-size: var(--title-20px-medium-font-size);
+  font-style: var(--title-20px-medium-font-style);
+  font-weight: var(--title-20px-medium-font-weight);
+  left: 396px;
+  letter-spacing: var(--title-20px-medium-letter-spacing);
+  line-height: var(--title-20px-medium-line-height);
+  position: absolute;
+  top: 195px;
+  white-space: nowrap;
+  
+}
+
+.account .frame-4 {
+  background-color: var(--primary);
+  border-radius: 4px;
+  box-shadow: 0px 0px 13px #0000001a;
+  height: 419px;
+  left: 396px;
+  overflow: hidden;
+  position: absolute;
+  top: 257px;
+  width: 949px;
+}
+
+.account .frame-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  left: 51px;
+  position: absolute;
+  top: 65px;
+  width: 564px;
+}
+
+.account .frame-6 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 40px;
+  position: relative;
+}
+
+.account .text-wrapper-9 {
+  color: var(--ch-gray);
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  width: 140px;
+}
+
+.account .text-wrapper-10 {
+  color: var(--text-2);
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.account .text-wrapper-11 {
+  color: var(--xanh-stroke);
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 473px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-decoration: underline;
+  top: 239px;
+  white-space: nowrap;
+}
+
+.account .overlap {
+  height: 378px;
+  left: 670px;
+  position: absolute;
+  top: 42px;
+  width: 238px;
+}
+
+.account .overlap-group {
+  height: 378px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 228px;
+}
+
+.account .frame-7 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 30px;
+  left: 46px;
+  position: absolute;
+  top: 24px;
+}
+
+.account .image {
+  height: 122px;
+  object-fit: cover;
+  position: relative;
+  width: 122px;
+}
+
+.account .frame-8 {
+  align-items: center;
+  border: 1px solid;
+  border-color: #787878;
+  display: inline-flex;
+  gap: 20px;
+  height: 50px;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.account .upload-instance {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.account .text-wrapper-12 {
+  color: var(--black);
+  font-family: var(--title-16px-regular-font-family);
+  font-size: var(--title-16px-regular-font-size);
+  font-style: var(--title-16px-regular-font-style);
+  font-weight: var(--title-16px-regular-font-weight);
+  letter-spacing: var(--title-16px-regular-letter-spacing);
+  line-height: var(--title-16px-regular-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.account .line {
+  height: 1px;
+  left: -188px;
+  position: absolute;
+  top: 188px;
+  transform: rotate(90deg);
+  width: 378px;
+}
+
+.account .img {
+  height: 226px;
+  left: 113px;
+  position: absolute;
+  top: -98px;
+  transform: rotate(-90deg);
+  width: 1px;
+}
+
+.account .button-instance {
+  background-color: var(--button) !important;
+  left: 102px !important;
+  position: absolute !important;
+  top: 274px !important;
+}
+.account .button {
+  background-color: var(--button) !important;
+  border-radius: 4px !important;
+  color: var(--white) !important;
+  font-family: var(--title-16px-medium-font-family) !important;
+  font-size: var(--title-16px-medium-font-size) !important;
+  font-style: var(--title-16px-medium-font-style) !important;
+  font-weight: var(--title-16px-medium-font-weight) !important;
+  letter-spacing: var(--title-16px-medium-letter-spacing) !important;
+  line-height: var(--title-16px-medium-line-height) !important;
+  padding: 8px 12px !important;
+}
+.account .button:hover {
+  background-color: var(--button-hover) !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease !important;
+
+}
+
+.account .design-component-instance-node {
+  color: var(--main) !important;
+}

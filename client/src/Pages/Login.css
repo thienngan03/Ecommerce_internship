@@ -1,0 +1,346 @@
+.Login {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.Login .div-2 {
+  background-color: var(--bg);
+  height: 1561px;
+  position: relative;
+  width: 1440px;
+  top: 0;
+}
+
+.Login .header {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  left: 115px;
+  position: absolute;
+  top: 82px;
+  width: 1210px;
+}
+
+.Login .logo {
+  height: 24px;
+  position: relative;
+  width: 106px;
+}
+
+.Login .exclusive {
+  color: transparent;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-size: 28px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0.84px;
+  line-height: 24px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+}
+
+.Login .span {
+  color: #ffbd4b;
+  letter-spacing: 0.24px;
+}
+
+.Login .text-wrapper-4 {
+  color: #000144;
+  letter-spacing: 0.24px;
+}
+
+.Login .frame-4 {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  justify-content: flex-end;
+  position: relative;
+  width: 864px;
+}
+
+.Login .search-component-set-instance {
+  display: flex !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+}
+
+.Login .frame-5 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}
+
+.Login .group-1000005940 {
+  position: relative !important;
+}
+
+.Login .line-3 {
+  background-image: url(../Components/Assets/hero.png) !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 140px !important;
+}
+
+.Login .frame-6 {
+  align-items: center;
+  display: flex;
+  gap: 129px;
+  left: 0;
+  position: absolute;
+  top: 200px;
+  width: 1325px;
+}
+
+.Login .side-image {
+  background-color: #cbe4e8;
+  border-radius: 0px 4px 4px 0px;
+  height: 781px;
+  overflow: hidden;
+  position: relative;
+  width: 805px;
+}
+
+.Login .dl-beatsnoop {
+  height: 706px;
+  left: 0;
+  position: absolute;
+  top: 75px;
+  width: 805px;
+}
+
+.Login .frame-7 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 30px;
+  position: relative;
+}
+
+.Login .frame-8 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 28px;
+  position: relative;
+  width: 100%;
+}
+
+.Login .frame-9 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.Login .Login-to-ecommerce {
+  color: transparent;
+  font-family: var(--heading-36px-medium-font-family);
+  font-size: var(--heading-36px-medium-font-size);
+  font-style: var(--heading-36px-medium-font-style);
+  font-weight: var(--heading-36px-medium-font-weight);
+  letter-spacing: var(--heading-36px-medium-letter-spacing);
+  line-height: var(--heading-36px-medium-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.Login .text-wrapper-5 {
+  color: #000000;
+  font-family: var(--heading-36px-medium-font-family);
+  font-size: var(--heading-36px-medium-font-size);
+  font-style: var(--heading-36px-medium-font-style);
+  font-weight: var(--heading-36px-medium-font-weight);
+  letter-spacing: var(--heading-36px-medium-letter-spacing);
+  line-height: var(--heading-36px-medium-line-height);
+}
+
+.Login .text-wrapper-6 {
+  color: #ffad33;
+  font-family: var(--heading-36px-medium-font-family);
+  font-size: var(--heading-36px-medium-font-size);
+  font-style: var(--heading-36px-medium-font-style);
+  font-weight: var(--heading-36px-medium-font-weight);
+  letter-spacing: var(--heading-36px-medium-letter-spacing);
+  line-height: var(--heading-36px-medium-line-height);
+}
+
+.Login .text-wrapper-7 {
+  color: #000144;
+  font-family: var(--heading-36px-medium-font-family);
+  font-size: var(--heading-36px-medium-font-size);
+  font-style: var(--heading-36px-medium-font-style);
+  font-weight: var(--heading-36px-medium-font-weight);
+  letter-spacing: var(--heading-36px-medium-letter-spacing);
+  line-height: var(--heading-36px-medium-line-height);
+}
+
+.Login .text-wrapper-8 {
+  color: var(--text-2);
+  font-family: var(--title-16px-regular-font-family);
+  font-size: var(--title-16px-regular-font-size);
+  font-style: var(--title-16px-regular-font-style);
+  font-weight: var(--title-16px-regular-font-weight);
+  letter-spacing: var(--title-16px-regular-letter-spacing);
+  line-height: var(--title-16px-regular-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.Login .frame-10 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.Login .frame-11 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.Login .text-wrapper-9 {
+  color: var(--text-2);
+  font-family: var(--title-16px-regular-font-family);
+  font-size: var(--title-16px-regular-font-size);
+  font-style: var(--title-16px-regular-font-style);
+  font-weight: var(--title-16px-regular-font-weight);
+  letter-spacing: var(--title-16px-regular-letter-spacing);
+  line-height: var(--title-16px-regular-line-height);
+  margin-top: -1.00px;
+  opacity: 0.4;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+/* .Login .under-line-instance {
+  align-self: stretch !important;
+  background-image: url(./line-1-2.svg) !important;
+  top: unset !important;
+  width: 100% !important;
+}
+
+.Login .design-component-instance-node {
+  align-self: stretch !important;
+  background-image: url(./line-1-3.svg) !important;
+  top: unset !important;
+  width: 100% !important;
+} */
+
+.Login .frame-12 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.Login .button-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 87px;
+  position: relative;
+  width: 100%;
+}
+
+.Login .button-instance {
+  background-color: var(--button) !important;
+  display: flex !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+}
+
+.Login .button-2 {
+  color: #000000 !important;
+}
+
+.Login .google-sign-up-instance {
+  display: flex !important;
+  flex: 0 0 auto !important;
+  margin-left: -2.50px !important;
+  margin-right: -2.50px !important;
+  width: 396px !important;
+}
+
+.Login .icon-google-instance {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.Login .google-sign-up-2 {
+  color: var(--text-2) !important;
+}
+
+.Login .p {
+  color: var(--text-2);
+  font-family: var(--title-16px-regular-font-family);
+  font-size: var(--title-16px-regular-font-size);
+  font-style: var(--title-16px-regular-font-style);
+  font-weight: var(--title-16px-regular-font-weight);
+  letter-spacing: var(--title-16px-regular-letter-spacing);
+  line-height: var(--title-16px-regular-line-height);
+  opacity: 0.7;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.Login .frame-13 {
+  align-items: flex-start;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--xanh-stroke);
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  padding: 4px 0px;
+  position: relative;
+}
+
+.Login .text-wrapper-10 {
+  color: var(--xanh-stroke);
+  font-family: var(--title-16px-medium-font-family);
+  font-size: var(--title-16px-medium-font-size);
+  font-style: var(--title-16px-medium-font-style);
+  font-weight: var(--title-16px-medium-font-weight);
+  letter-spacing: var(--title-16px-medium-letter-spacing);
+  line-height: var(--title-16px-medium-line-height);
+  margin-top: -1.00px;
+  opacity: 0.7;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

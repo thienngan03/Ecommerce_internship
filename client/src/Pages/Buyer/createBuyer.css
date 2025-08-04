@@ -1,0 +1,139 @@
+
+.create-buyer {
+    display: flex;
+    gap: 50px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.left-container {
+    width: 50%;
+}
+
+.left-container img {
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.right-container {
+    width: 50%;
+    display: flex;
+
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-container input {
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding: 8px 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.input-container input:focus {
+    border-bottom-color: #ffb535;
+    border-bottom-width: 2px;
+}
+
+.input-container input::placeholder {
+    color: #999;
+}
+
+/* Button styles */
+.create-account-btn {
+    background-color: #ffb535;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    font-size: 14px;
+    font-weight: 550;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.create-account-btn:hover {
+    background-color: #faa40f;
+}
+
+/* Form title styles */
+form h1 {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Link styles */
+.input-container a {
+    color: #ffb535;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.input-container a:hover {
+    text-decoration: underline;
+}
+
+/* Checkbox styles */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.checkbox-container label {
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    line-height: 1.4;
+}
+
+.terms-link {
+    color: #ffb535;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.terms-link:hover {
+    text-decoration: underline;
+}
+
+.input-container p {
+    text-align: center;
+    color: #666;
+    margin-top: 10px;
+}

@@ -1,0 +1,220 @@
+.order {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: auto;
+}
+
+.order .div {
+  background-color: var(--bg);
+  height: 1177px;
+  position: relative;
+  width: 100px;
+
+}
+.order .div-2 {
+  background-color: var(--bg);
+  height: 1177px;
+  position: relative;
+  width: 1440px;
+  top : 100px;
+}
+.order .frame {
+  height: 100px;
+  left: 135px;
+  position: relative;
+  top: 100px;
+  width: 181px;
+  padding: auto;
+}
+
+.order .text-wrapper {
+  color: var(--text-2);
+  font-family: var(--title-16px-medium-font-family);
+  font-size: var(--title-16px-medium-font-size);
+  font-style: var(--title-16px-medium-font-style);
+  font-weight: var(--title-16px-medium-font-weight);
+  left: 0;
+  letter-spacing: var(--title-16px-medium-letter-spacing);
+  line-height: var(--title-16px-medium-line-height);
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+}
+
+.order .text-wrapper-2 {
+  color: var(--text-2);
+  font-family: var(--title-16px-medium-font-family);
+  font-size: var(--title-16px-medium-font-size);
+  font-style: var(--title-16px-medium-font-style);
+  font-weight: var(--title-16px-medium-font-weight);
+  left: 0;
+  letter-spacing: var(--title-16px-medium-letter-spacing);
+  line-height: var(--title-16px-medium-line-height);
+  position: absolute;
+  top: 176px;
+  white-space: nowrap;
+}
+
+.order .frame-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  left: 18px;
+  position: absolute;
+  top: 37px;
+  width: 119px;
+}
+
+.order .text-wrapper-3 {
+  color: var(--secondary);
+  font-family: var(--title-16px-regular-font-family);
+  font-size: var(--title-16px-regular-font-size);
+  font-style: var(--title-16px-regular-font-style);
+  font-weight: var(--title-16px-regular-font-weight);
+  letter-spacing: var(--title-16px-regular-letter-spacing);
+  line-height: var(--title-16px-regular-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.order .text-wrapper-4 {
+  align-self: stretch;
+  color: var(--ch-gray);
+  font-family: var(--title-16px-regular-font-family);
+  font-size: var(--title-16px-regular-font-size);
+  font-style: var(--title-16px-regular-font-style);
+  font-weight: var(--title-16px-regular-font-weight);
+  letter-spacing: var(--title-16px-regular-letter-spacing);
+  line-height: var(--title-16px-regular-line-height);
+  position: relative;
+}
+
+.order .text-wrapper-5 {
+  color: rgb(235, 235, 143);
+  font-family: var(--title-16px-regular-font-family);
+  font-size: var(--title-16px-regular-font-size);
+  font-style: var(--title-16px-regular-font-style);
+  font-weight: var(--title-16px-regular-font-weight);
+  letter-spacing: var(--title-16px-regular-letter-spacing);
+  line-height: var(--title-16px-regular-line-height);
+  margin-right: -29.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+.order .text-wrapper-9 {
+  color: var(--ch-gray);
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  width: 140px;
+
+
+}
+.div-2 {
+  margin-bottom: 20px;
+}
+.overlap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.order-item {
+    padding: 20px;
+
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.order-details {
+      background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+}
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cart-items {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item-details {
+  display: flex;
+}
+
+.product-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.cart-item-info {
+  display: flex;
+  flex-direction: column;
+}
+.cart-price {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+
+.cart-summary {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.text-wrapper-10 {
+  margin-bottom: 5px;
+  color: #f10808;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 10px;
+  
+}.cart {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

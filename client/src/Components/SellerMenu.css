@@ -1,0 +1,114 @@
+.seller-menu {
+    background-color: var(--bg);
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    flex-direction: column;
+    top: 100px;
+    width: 200px; 
+    height: 100px;
+    left: 135px;
+}
+
+.seller-menu .text {
+
+  font-family: var(--title-16px-medium-font-family);
+  font-size: var(--title-16px-medium-font-size);
+  font-weight: var(--title-16px-medium-font-weight);
+  margin-bottom: 10px;
+}
+
+.seller-menu .manage-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.seller-menu .manage-menu div,
+.seller-menu .manage-menu a {
+  font-family: var(--title-16px-regular-font-family);
+  font-size: var(--title-16px-regular-font-size);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+
+.seller-menu .active {
+  color: #dfd817; /* Yellow for active menu item */
+}
+.seller-menu .inactive {
+  color: var(--text-2); /* Default color for inactive menu items */
+}
+
+.seller-menu .order-link {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.seller-menu .order-link:hover {
+  color: var(--secondary);
+}
+
+
+.seller-menu .text-2 {
+  font-family: var(--title-16px-medium-font-family);
+  font-size: var(--title-16px-medium-font-size);
+  font-style: var(--title-16px-medium-font-style);
+  font-weight: var(--title-16px-medium-font-weight);
+  left: 0;
+  letter-spacing: var(--title-16px-medium-letter-spacing);
+  line-height: var(--title-16px-medium-line-height);
+  position: absolute;
+  top: 140px;
+  white-space: nowrap;
+}
+
+
+.seller-menu .text-1 {
+    font-family: var(--title-16px-medium-font-family);
+    font-size: var(--title-16px-medium-font-size);
+    font-style: var(--title-16px-medium-font-style);
+    font-weight: var(--title-16px-medium-font-weight);
+    left: 0;
+    letter-spacing: var(--title-16px-medium-letter-spacing);
+    line-height: var(--title-16px-medium-line-height);
+
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.seller-menu .text-3 {
+    color: #dfd817;
+    align-self: stretch;
+    font-family: var(--title-16px-regular-font-family);
+    font-size: var(--title-16px-regular-font-size);
+    font-style: var(--title-16px-regular-font-style);
+    font-weight: var(--title-16px-regular-font-weight);
+    letter-spacing: var(--title-16px-regular-letter-spacing);
+    line-height: var(--title-16px-regular-line-height);
+    text-decoration: none;
+    position: relative;
+    
+}
+
+.seller-menu .text-4 {
+    font-family: var(--title-16px-regular-font-family);
+    font-size: var(--title-16px-regular-font-size);
+    font-style: var(--title-16px-regular-font-style);
+    font-weight: var(--title-16px-regular-font-weight);
+    letter-spacing: var(--title-16px-regular-letter-spacing);
+    line-height: var(--title-16px-regular-line-height);
+    text-decoration: none;
+    margin-right: -29.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    text-decoration: none;
+}
