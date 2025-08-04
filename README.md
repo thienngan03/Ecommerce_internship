@@ -80,6 +80,7 @@ Make sure that database_name of function "use database_name" in `databaseScript.
 ## Usage
 
 ### Testing Account
-  - **Password:** `password`
+  - **Password:** `password` for all account accept account 1
+  - **Password:** `password` for account 1
   - user 1 to 50 is buyer, 51 to 100 is seller
 
